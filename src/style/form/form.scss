@@ -1,0 +1,70 @@
+.form{
+    display: flex;
+    justify-content: center;
+    
+
+    .from__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 982px;
+        height: 1080px;
+        border-radius: 25px;
+        background: linear-gradient(#e66465, #9198e5);
+
+        .form__title{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            color: #fff;
+        }
+
+        .form__subtitle{
+            color: #fff;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+            max-width: 80%;
+        }
+
+        .form__post{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .form__input{
+                box-sizing: border-box;
+                outline: none; /* Для синий ободки */
+                background: transparent;
+                border: 1px solid #fff;
+                width: 300px;
+                height: 49px;
+                padding: 10px;
+                color: #fff;
+            }
+
+            .form__container{
+                margin-top: 82px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .form__subbmit{
+                margin-top: 105px;
+                border: 1px solid #fff;
+                width: 300px;
+                height: 49px;
+                box-sizing: border-box;
+                outline: none; /* Для синий ободки */
+                background: transparent;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 35px;
+                color: #fff;
+            }
+        }
+    }
+}

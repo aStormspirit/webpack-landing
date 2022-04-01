@@ -1,0 +1,26 @@
+.post{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    background: linear-gradient(#256ae9, #e6a326);
+
+    &__title{
+        color: #3EB44A;
+        font-size: 64px;
+    }
+
+    &__subtitle{
+        margin-top: 60px;
+        font-size:35px;
+        color: #231F20;
+    }
+
+    &__btn{
+        margin-top: 80px;
+        border: none;
+        background-color: blue;
+        color: #fff;
+        font-size: 30px;
+    }
+}

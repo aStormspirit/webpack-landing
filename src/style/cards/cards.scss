@@ -1,0 +1,62 @@
+.cards{
+    background-image: url('https://marketplace.canva.com/EAD2-gV5Sro/2/0/1600w/canva-professional-bright-office-zoom-virtual-background-9YaJ3hIk_I0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 1080px;
+    justify-content: space-around;
+    align-items: center;
+
+    [class^="card__container"]{
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card__img{
+            fill: #FFFFFF;
+            width: 130px;
+            height: 130px;
+        }
+
+        .card__title{
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 47px;
+            color: rgb(255, 255, 255);
+        }
+
+        .card__subtitle{
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            max-width: 80%;
+        }
+
+        .card__btn{
+            color: #FFFFFF;
+            border: 4px solid #FFFFFF;
+            box-sizing: border-box;
+            outline: none; /* Для синий ободки */
+            background: transparent;
+            width: 286px;
+            height: 60px;
+        }
+    }
+
+    [class$="_black"]{
+        background-color: gray;
+    }
+
+    [class$="_green"]{
+        background-color: green;
+    }
+
+    [class$="_blue"]{
+        background-color: blue;
+    }
+}
